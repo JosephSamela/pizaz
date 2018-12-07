@@ -54,3 +54,15 @@ img {
     margin: auto;
     top: 50%;
 }
+
+footer {
+    position: fixed;
+    margin: 1em;
+    left: 0;
+    bottom: 0;
+    color: white;
+    mix-blend-mode: difference;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
