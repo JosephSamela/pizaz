@@ -1,0 +1,56 @@
+
+html {
+    background:black;
+    color: white;
+}
+
+body {
+    margin:0px;
+    overflow: hidden;
+}
+
+textarea {
+    resize: none;
+    background: #2C3036;
+    color: #A4A9B4;
+    border: none;
+    padding: 1em;
+    font-size: 24pt;
+}
+
+h1 {
+    margin:0px;
+    font-size:128pt;
+    mix-blend-mode: difference;
+}
+h2 {
+    margin: 0px;
+    color: black;
+    font-size: 72pt;
+    font-style: italic;
+    mix-blend-mode: overlay;
+}
+p {
+    margin: 0px;
+    font-size: 48pt;
+    mix-blend-mode: overlay;
+}
+
+img {
+    border-radius: 5px;
+}
+
+.slide {
+    display: table;
+    margin: auto;
+    height:100vh;
+    width:100vw;
+    text-align:center;
+}
+
+.container {
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto;
+    top: 50%;
+}
